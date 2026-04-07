@@ -108,3 +108,45 @@ input[type="submit"]:hover {
     from {background-position: 0;}
     to {background-position: 10000px 0;}
 }
+
+/* Modal */
+#hello-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 40px 32px;
+    text-align: center;
+    max-width: 280px;
+    width: 90%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.modal-box h2 {
+    margin: 0 0 24px;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+#hello-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#hello-btn:hover {
+    background-color: #0056b3;
+}

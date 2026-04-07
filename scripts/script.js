@@ -4,10 +4,14 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     const password = document.getElementById('password').value;
 
     if (username === "admin" && password === "password") {
-        alert('Hello world!');
+        document.getElementById('hello-modal').style.display = 'flex';
     } else {
         alert('Invalid credentials');
     }
+});
+
+document.getElementById('hello-btn').addEventListener('click', function() {
+    document.getElementById('hello-modal').style.display = 'none';
 });
 
 document.querySelector('.footer a').addEventListener('click', function(e) {
