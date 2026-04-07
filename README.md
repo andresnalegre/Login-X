@@ -1,25 +1,44 @@
-# Login X
+<div align="center">
 
-This modern [login X](https://andresnalegre.github.io/Login-X) project showcases my UI/UX skills with a space-themed design.
+  # Login-X
+
+  A login page built with vanilla HTML, CSS and JavaScript, hosted on GitHub Pages.
+
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Login--X-blue?style=flat-square)](https://andresnalegre.github.io/Login-X/)
+  [![GitHub](https://img.shields.io/badge/Made%20by-Andres%20Nicolas%20Alegre-brightgreen?style=flat-square)](https://github.com/andresnalegre)
+</div>
 
 ---
 
-## Technologies Used
+## About
 
-- HTML5
-- CSS3
+**Login-X** is a demo login page with an animated space background.
+
+## Features
+
+- Animated star field background
+- Login form with validation
+- Demo credentials auto-fill
+
+## Stack
+
+- HTML
+- CSS
 - JavaScript
+- GitHub Pages
 
----
+## Run locally
+
+```bash
+git clone https://github.com/andresnalegre/Login-X
+cd Login-X
+open index.html
+```
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE)
-
----
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contributing
 
-Contributions are welcome! If you have any improvements or new features you’d like to add, feel free to fork the repository and submit a pull request. Please ensure that your code follows the existing style and structure.
-
-[![GitHub](https://img.shields.io/badge/Made%20by-Andres%20Nicolas%20Alegre-brightgreen)](https://github.com/andresnalegre)
+Contributions are welcome! Feel free to fork the repository and submit a pull request. Please ensure your code follows the existing style and structure.
