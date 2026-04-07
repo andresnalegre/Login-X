@@ -16,7 +16,6 @@ document.getElementById('hello-btn').addEventListener('click', function() {
 
 document.querySelector('.footer a').addEventListener('click', function(e) {
     e.preventDefault();
-    alert('Demo credentials — Username: admin | Password: password');
     document.getElementById('username').value = "admin";
     document.getElementById('password').value = "password";
 });
