@@ -4,7 +4,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     const password = document.getElementById('password').value;
 
     if (username === "admin" && password === "password") {
-        alert('Hello world!')
+        alert('Hello world!');
     } else {
         alert('Invalid credentials');
     }
@@ -12,7 +12,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
 
 document.querySelector('.footer a').addEventListener('click', function(e) {
     e.preventDefault();
-    alert('The username is admin and the password is password');
+    alert('Demo credentials — Username: admin | Password: password');
     document.getElementById('username').value = "admin";
     document.getElementById('password').value = "password";
 });
